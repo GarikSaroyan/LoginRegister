@@ -1,14 +1,22 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
 .App {
     display: flex;
     justify-content: center;
-    text-align: center;
-    background-color: #e6eeff;
-    padding-bottom: 5%;
+    /*background-color: #e6eeff;*/
+    height: 750px;
 }
-
+.input {
+    background-color:white;
+}
 .logRegister {
+    position: absolute;
+    text-align: center;
     padding-top: 20px;
-    margin: 50px 40% 20%;
+    margin: 50px 40%;
     background-color: #2386c8;
     box-shadow: 0 0 50px #0099ff;
     border-radius: 20px;
@@ -39,9 +47,16 @@
     color: #000000;
 }
 
+
+
 .loginBox {
     border-radius: 15px;
     padding: 10px;
-    background-color: #081fb6;
+    background-color: #2386c8;
     margin: 20px;
+}
+
+.loginBox:hover {
+    background-color: #ff0000;
+
 }
